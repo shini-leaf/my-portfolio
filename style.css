@@ -6,17 +6,44 @@ header {
   align-items: center;
   color: aliceblue;
   display: flex;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  justify-content: space-between;
+  position: fixed;
+}
+
+body {
+  margin: 0;
 }
 
 header h1 {
   margin-left: 30px;
 }
 
+.list {
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: underline;
+  color: aliceblue;
+  margin-right: 30px;
+}
+
+header a:hover {
+  color: #c2f279;
+}
+
 .forest {
   background-image: url("forest.jpg");
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
+
+/* first-block */
+#first {
+  padding: 30px 0;
+}
+
 .content {
   background-color: #edf2c2;
 }
@@ -24,7 +51,8 @@ header h1 {
 .content h2 {
   text-align: center;
   padding-top: 30px;
-  font-size: 35px;
+  font-size: 52px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
 
 .about_me {
@@ -33,13 +61,91 @@ header h1 {
 }
 
 .block {
-  background-color: #4f7302;
+  background-color: rgba(79, 115, 2, 0.7);
   text-align: center;
-  width: 350px;
+  width: 400px;
   color: aliceblue;
   margin: 30px;
 }
+
+.block p {
+  padding: 12px;
+  font-size: 18px;
+}
+
 .block b {
+  font-size: 28px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.play {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* second-block */
+#second {
+  padding: 30px 0;
+}
+
+.recent_events {
+  background-color: #c2f279;
+}
+
+.recent_events h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 52px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.all_events {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.event {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.event b {
+  font-size: 40px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.report_image {
+  width: 40%;
+  height: 340px;
+}
+
+.table-tennis_image {
+  width: 40%;
+  height: 340px;
+}
+
+.but {
+  color: aliceblue;
+  background-color: #05a6a6;
+  padding: 5px 20px;
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  border-radius: 0 16px 0 16px;
+}
+
+.but:hover {
+  background-color: #077f8c;
+}
+
+.but_content {
   font-size: 20px;
 }
 

@@ -6,42 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    
     <title>My Portfolio</title>
   </head>
   <body>
     <header>
       <h1>Shin-i Leaf🌱</h1>
+      <div class="list">
+        <a href="#top">Top</a>
+        <a href="#first">About me</a>
+        <a href="#second">Recent events</a>
     </header>
-    <div class="forest"></div>
 
-    <div class="content">
-      <h2>Self-introducton</h2>
+    <section id="top" class="forest"></section>
+
+    <section id="first" class="content">
+      <h2>About me</h2>
 
       <div class="about_me">
-        <p class="block">
-          <b>部活：ゴルフ部</b>
-          <br />大学から始めたので初心者です。
-          <br />ちゃんと打てるようになるには <br />３か月必要だそうです...
-        </p>
-        <p class="block">
-          <b>性格</b>
-          <br />コミュ力が高いとよく言われます！ <br />最近はいろいろなことに
-          <br />挑戦しています！
-        </p>
-        <p class="block">
-          <b>趣味：音楽を聞くこと</b>
-          <br />K-popが一番好きです！ <br />今一番すきなのは
-          <br />Twiceのナヨンちゃんの「POP!」です。
-        </p>
+        <div class="block">
+          <p>
+            <b>部活：卓球部</b>
+            <br />大学から始めたので初心者です。
+            <br />個性豊かなメンバーが多くて <br />とても楽しいです！
+          </p>
+        </div>
+        <div class="block">
+          <p>
+            <b>性格</b>
+            <br />コミュ力が高いとよく言われます！ <br />最近はいろいろなことに
+            <br />挑戦しています！
+          </p>
+        </div>
+        <div class="block">
+          <p>
+            <b>趣味：音楽を聞くこと</b>
+            <br />K-popが一番好きです！ <br />今一番好きなのは
+            <br />Twiceのナヨンちゃんの「POP!」です。
+          </p>
+        </div>
       </div>
 
-      <p>クリックしてリーフをたくさん作ってね</p>
-      <button id="leaf">🌱</button>
-      <button id="leaves">🌿</button>
-      <button id="clover">🍀</button>
-      <button id="flowing">🍃</button>
-      <div id="leaf_content"></div>
-    </div>
+      <div class="play">
+        <p>クリックしてリーフをたくさん作ってね</p>
+        <button id="mash">🍄</button>
+        <button id="leaf">🌱</button>
+        <button id="leaves">🌿</button>
+        <button id="sunFlower">🌻</button>
+        <button id="clover">🍀</button>
+        <button id="flowing">🍃</button>
+        <button id="flower">🌷</button>
+        <div id="leaf_content"></div>
+      </div>
+    </section>
+
+    <section id="second" class="recent_events">
+      <h2>Recent events</h2>
+
+      <div class="all_events">
+
+        <div class="event">
+
+          <div class="text">
+            <b>７月 大学生活</b>
+
+            <p class="event_content">
+            <br>
+            <br>
+            ７月は試験やレポートに追われています...<br>
+            大学１年生なので、初めてのことでいっぱいです。<br>
+            一番驚いたのは、腕時計を外すよう言われたことです！<br>
+            乗り越えられていると信じたいです😥<br>
+            </p>
+          </div>
+          
+          <img src="report.jpg" alt="レポート" class="report_image">
+        </div>
+
+        <div class="event">
+          
+          <img src="table-tennis.jpg" alt="卓球" class="table-tennis_image">
+          <div class="text">
+            <b>８月 東医体</b>
+
+            <p class="event_content">
+              <br>
+              <br>
+              東医体は、東日本医科学生総合体育大会の略です。<br>
+              東日本の医学生が参加する大きな大会です！<br>
+              今年は、北海道で８月７日～１２日に開催されます。<br>
+              めっちゃ楽しみです🥰<br>
+            </p>
+            <br>
+            <button id="but" class="but">BUT...</button>
+            <div id="but_content" class="but_content"></div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
     <footer>
       <p>Copyright © Shin-i Leaf All Rights Reserved.</p>
     </footer>
